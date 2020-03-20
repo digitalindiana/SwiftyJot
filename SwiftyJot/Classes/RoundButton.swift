@@ -28,6 +28,13 @@ class RoundButton: UIButton {
         imageView?.layer.cornerRadius = self.layer.cornerRadius
         layer.cornerRadius = 25
         layer.borderWidth = 1
+
+        if shadowLayer == nil {
+            shadowLayer = CAShapeLayer()
+            shadowLayer.path = UIBezierPath(roundedRect: bounds, cornerRadius: self.layer.cornerRadius).cgPath
+            shadowLayer.fillColor = buttonBackgroundColor?.cgColor ?? UIColor.white.cgColor
+            layer.insertSublayer(shadowLayer, at: 0)
+        }
     }
 
 }
