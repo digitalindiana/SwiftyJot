@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyJot (0.1.0)
+
+DEPENDENCIES:
+  - SwiftyJot (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyJot:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftyJot: 37ba5912538635879aa0371174d2d2856c15a643
+
+PODFILE CHECKSUM: 0270d3aa2c95562507cdf972a5690997c4db2f52
+
+COCOAPODS: 1.8.4

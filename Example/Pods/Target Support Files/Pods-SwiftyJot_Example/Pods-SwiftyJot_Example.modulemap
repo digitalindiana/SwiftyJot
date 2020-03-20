@@ -1,0 +1,6 @@
+framework module Pods_SwiftyJot_Example {
+  umbrella header "Pods-SwiftyJot_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

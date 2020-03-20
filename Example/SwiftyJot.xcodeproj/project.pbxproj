@@ -305,7 +305,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyJot_Example/Pods-SwiftyJot_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftyJot_Example/Pods-SwiftyJot_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJot/SwiftyJot.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -314,7 +314,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyJot_Example/Pods-SwiftyJot_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftyJot_Example/Pods-SwiftyJot_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4B2CC4842D5C451AAAF9ED33 /* [CP] Check Pods Manifest.lock */ = {

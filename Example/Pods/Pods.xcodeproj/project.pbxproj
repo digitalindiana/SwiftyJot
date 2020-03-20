@@ -1,0 +1,910 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00628F6EEF453F5FBF5AD7AD1053B3CD /* Pods-SwiftyJot_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38969FEB88B476A15336129037758634 /* Pods-SwiftyJot_Tests-dummy.m */; };
+		01C0C32728C3C4EB7E40F5F27B1C790A /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81DA47364F242118DC2B48C0675880BC /* Icons.xcassets */; };
+		06B0CE1B1B52A01C112BB6784611A922 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		0EEA4425E7EFC5303474ED0938BD057B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		247937FB8C5A0D26560A6372815332D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		2AA61D338ADB7058E69B63DF28D99E31 /* SwiftyJot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEB5728F995B2A8DAC5EC06B982E4DA /* SwiftyJot.swift */; };
+		541910578DC27723EAE7EB2E3F16F113 /* UIColor+rgb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B834F2FCD026565EFDB62BFCB83B8 /* UIColor+rgb.swift */; };
+		5696C37265CA5FB47BCA13F3E6702104 /* SwiftyJot-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1FEF92EC17D6252C141ABDE4593D31 /* SwiftyJot-dummy.m */; };
+		6764D4BD3C9F5DED0F257C86D3F3B17D /* Pods-SwiftyJot_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F7CED8B0323CB8558BA40DA7D2C4EA /* Pods-SwiftyJot_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DF5C12B1811B8D289FCFE9BD37AB79C /* Pods-SwiftyJot_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2665EAB170D2734F71F3CA446178FABA /* Pods-SwiftyJot_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94279D837390548D485A89FD3166FFEA /* SwiftyJot-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A8DFBFD109EEA556490B703CC83514D /* SwiftyJot-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		967A70105E62AD5157DFE4078B72EE68 /* SwiftyJotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF1B02928B72473B4A6B5D8891B1838 /* SwiftyJotController.swift */; };
+		9808AA6C2432A6105A9F4CB696BC1B4F /* SwiftyJot.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 35C0DD631ECBE2D9A3B57ECBA12EB359 /* SwiftyJot.bundle */; };
+		9867A36EAD6492D73EAD6608433A6515 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81DA47364F242118DC2B48C0675880BC /* Icons.xcassets */; };
+		A0CB424D1E7A62F1801294374CAF6C73 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB139EFC15BEA6EDBD087B1D89DD925 /* RoundButton.swift */; };
+		A8076F863CD95FA994E20C8304104D0C /* BrushSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84938E743C2092C7219C658CFEB4C918 /* BrushSlider.swift */; };
+		B0D8BF27BBB7F57C44AB4A8DB445353F /* Pods-SwiftyJot_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9CAA2EF22FED73BC0E773AF31F89E2 /* Pods-SwiftyJot_Example-dummy.m */; };
+		D6A00A96E48DD6A853B3843C723C3ED3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		F24CB1A93595CF025B1736E303B681DF /* PaletteTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEADA97D0114D73F8C8D861CF75A2 /* PaletteTool.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0948849FB9A4D3BA4FB4DD293EA88DD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EF920B6555135C548FE6C58551D6AA0;
+			remoteInfo = "SwiftyJot-SwiftyJot";
+		};
+		956A0BBDC8A639CF853BB5DF2F0089AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 178ADCFC952F4DFA8919BD944B02AA6F;
+			remoteInfo = SwiftyJot;
+		};
+		BDF4A829B4589353D13BAF8D4ECD5465 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 318EDBA24EDF55A3782465A03DE4B67B;
+			remoteInfo = "Pods-SwiftyJot_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01499AB07731A56B9BFCEF34CB5502E2 /* Pods-SwiftyJot_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyJot_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		054B834F2FCD026565EFDB62BFCB83B8 /* UIColor+rgb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+rgb.swift"; path = "SwiftyJot/Classes/UIColor+rgb.swift"; sourceTree = "<group>"; };
+		0B72C9DF4EE7C758901F86D6EE996AF2 /* SwiftyJot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJot.framework; path = SwiftyJot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BDC0F138EED166A8415EFA3EA00BE10 /* Pods_SwiftyJot_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftyJot_Tests.framework; path = "Pods-SwiftyJot_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1FEF92EC17D6252C141ABDE4593D31 /* SwiftyJot-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJot-dummy.m"; sourceTree = "<group>"; };
+		1FA3A05D0F18BCAF7662B9CA2492AE57 /* Pods-SwiftyJot_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyJot_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		217264F1292B628ED807AEA12F6610E2 /* SwiftyJot.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJot.modulemap; sourceTree = "<group>"; };
+		2665EAB170D2734F71F3CA446178FABA /* Pods-SwiftyJot_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyJot_Tests-umbrella.h"; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3160088E64EE5864B9DBC2F3C5F24966 /* SwiftyJot.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftyJot.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		35C0DD631ECBE2D9A3B57ECBA12EB359 /* SwiftyJot.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SwiftyJot.bundle; path = "SwiftyJot-SwiftyJot.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38969FEB88B476A15336129037758634 /* Pods-SwiftyJot_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyJot_Tests-dummy.m"; sourceTree = "<group>"; };
+		3AF1B02928B72473B4A6B5D8891B1838 /* SwiftyJotController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJotController.swift; path = SwiftyJot/Classes/SwiftyJotController.swift; sourceTree = "<group>"; };
+		3BEB5728F995B2A8DAC5EC06B982E4DA /* SwiftyJot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJot.swift; path = SwiftyJot/Classes/SwiftyJot.swift; sourceTree = "<group>"; };
+		42C39507D4DD5B9A613C0F9EEEE96A96 /* Pods-SwiftyJot_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyJot_Tests-Info.plist"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		47B9A153487EC01B3F36412055D278CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4A8DFBFD109EEA556490B703CC83514D /* SwiftyJot-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJot-umbrella.h"; sourceTree = "<group>"; };
+		5A1EEADA97D0114D73F8C8D861CF75A2 /* PaletteTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaletteTool.swift; path = SwiftyJot/Classes/PaletteTool.swift; sourceTree = "<group>"; };
+		60D6D0B1FDE98C64B01FB97F9EA2336A /* Pods-SwiftyJot_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyJot_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		650524448167C2F0688C453DA896F501 /* Pods-SwiftyJot_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyJot_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6FB06B255B10637931AB39056FD329B8 /* Pods-SwiftyJot_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyJot_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7C738CE2F308A9B51443B0D5DA5C903A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		81DA47364F242118DC2B48C0675880BC /* Icons.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Icons.xcassets; path = SwiftyJot/Assets/Icons.xcassets; sourceTree = "<group>"; };
+		84938E743C2092C7219C658CFEB4C918 /* BrushSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BrushSlider.swift; path = SwiftyJot/Classes/BrushSlider.swift; sourceTree = "<group>"; };
+		8B9CAA2EF22FED73BC0E773AF31F89E2 /* Pods-SwiftyJot_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyJot_Example-dummy.m"; sourceTree = "<group>"; };
+		93116812DCF055F81ECCCF1B28C3DC57 /* Pods-SwiftyJot_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyJot_Example-Info.plist"; sourceTree = "<group>"; };
+		97A9B0B504D8A5692D189856800A597F /* Pods-SwiftyJot_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyJot_Example.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7F7CED8B0323CB8558BA40DA7D2C4EA /* Pods-SwiftyJot_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyJot_Example-umbrella.h"; sourceTree = "<group>"; };
+		B50EDC6A4B2D24F2FD023C3993A7403D /* Pods-SwiftyJot_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyJot_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B7F765989A45829DC16E82DE441C563B /* Pods_SwiftyJot_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftyJot_Example.framework; path = "Pods-SwiftyJot_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C086F160C4E6D7DE8A139B6ED5B3748B /* Pods-SwiftyJot_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyJot_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C9A58DDFF06998BB19A7AC978B52EB31 /* Pods-SwiftyJot_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyJot_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CEB139EFC15BEA6EDBD087B1D89DD925 /* RoundButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoundButton.swift; path = SwiftyJot/Classes/RoundButton.swift; sourceTree = "<group>"; };
+		CF4C0F25FF73C977DAEBB72AF6CEDA32 /* SwiftyJot-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJot-prefix.pch"; sourceTree = "<group>"; };
+		D287B02F111567AA840C0EBE64A97F40 /* Pods-SwiftyJot_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyJot_Tests.modulemap"; sourceTree = "<group>"; };
+		DBB0079D4156E4C1552F770C9DC5E495 /* SwiftyJot.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJot.xcconfig; sourceTree = "<group>"; };
+		DD41F2E25697B19FA242237A8847BEFD /* ResourceBundle-SwiftyJot-SwiftyJot-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SwiftyJot-SwiftyJot-Info.plist"; sourceTree = "<group>"; };
+		E3DA7DCCA357F2EEA573D71D0E0A5552 /* Pods-SwiftyJot_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyJot_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F246341DD08396CCD1AF9F8408DC146B /* SwiftyJot-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJot-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43148C25BA862FF9270EAC967F10F20E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96184A6B55CFA58C7EDE12EBAAC084AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B0CE1B1B52A01C112BB6784611A922 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		988E3F67CC0AF3ED00F5453050DBC201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247937FB8C5A0D26560A6372815332D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3C9C9B08D7BB70C5406A79EC9C39CF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6A00A96E48DD6A853B3843C723C3ED3 /* Foundation.framework in Frameworks */,
+				0EEA4425E7EFC5303474ED0938BD057B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E45E225AB84CFF40F0FC8DCD87F491F /* Pods-SwiftyJot_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D287B02F111567AA840C0EBE64A97F40 /* Pods-SwiftyJot_Tests.modulemap */,
+				60D6D0B1FDE98C64B01FB97F9EA2336A /* Pods-SwiftyJot_Tests-acknowledgements.markdown */,
+				E3DA7DCCA357F2EEA573D71D0E0A5552 /* Pods-SwiftyJot_Tests-acknowledgements.plist */,
+				38969FEB88B476A15336129037758634 /* Pods-SwiftyJot_Tests-dummy.m */,
+				42C39507D4DD5B9A613C0F9EEEE96A96 /* Pods-SwiftyJot_Tests-Info.plist */,
+				2665EAB170D2734F71F3CA446178FABA /* Pods-SwiftyJot_Tests-umbrella.h */,
+				01499AB07731A56B9BFCEF34CB5502E2 /* Pods-SwiftyJot_Tests.debug.xcconfig */,
+				B50EDC6A4B2D24F2FD023C3993A7403D /* Pods-SwiftyJot_Tests.release.xcconfig */,
+			);
+			name = "Pods-SwiftyJot_Tests";
+			path = "Target Support Files/Pods-SwiftyJot_Tests";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D8AD084DB051D9EE1C47F62B7E9E6A4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				81DA47364F242118DC2B48C0675880BC /* Icons.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5FC5BB787707DF3BED31467BEE64EA75 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				47B9A153487EC01B3F36412055D278CE /* LICENSE */,
+				7C738CE2F308A9B51443B0D5DA5C903A /* README.md */,
+				3160088E64EE5864B9DBC2F3C5F24966 /* SwiftyJot.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		80D1C5426F482CF5AB28D03D4D965E8C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1B0FA4A0CF59F0F2FA05434ABA6A54E /* SwiftyJot */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AFFCC15CB016A136E75C1F4A44A67EFF /* Pods-SwiftyJot_Example */ = {
+			isa = PBXGroup;
+			children = (
+				97A9B0B504D8A5692D189856800A597F /* Pods-SwiftyJot_Example.modulemap */,
+				1FA3A05D0F18BCAF7662B9CA2492AE57 /* Pods-SwiftyJot_Example-acknowledgements.markdown */,
+				650524448167C2F0688C453DA896F501 /* Pods-SwiftyJot_Example-acknowledgements.plist */,
+				8B9CAA2EF22FED73BC0E773AF31F89E2 /* Pods-SwiftyJot_Example-dummy.m */,
+				C086F160C4E6D7DE8A139B6ED5B3748B /* Pods-SwiftyJot_Example-frameworks.sh */,
+				93116812DCF055F81ECCCF1B28C3DC57 /* Pods-SwiftyJot_Example-Info.plist */,
+				A7F7CED8B0323CB8558BA40DA7D2C4EA /* Pods-SwiftyJot_Example-umbrella.h */,
+				6FB06B255B10637931AB39056FD329B8 /* Pods-SwiftyJot_Example.debug.xcconfig */,
+				C9A58DDFF06998BB19A7AC978B52EB31 /* Pods-SwiftyJot_Example.release.xcconfig */,
+			);
+			name = "Pods-SwiftyJot_Example";
+			path = "Target Support Files/Pods-SwiftyJot_Example";
+			sourceTree = "<group>";
+		};
+		C9D16A650945B813363A4C622BB6A7C2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD41F2E25697B19FA242237A8847BEFD /* ResourceBundle-SwiftyJot-SwiftyJot-Info.plist */,
+				217264F1292B628ED807AEA12F6610E2 /* SwiftyJot.modulemap */,
+				DBB0079D4156E4C1552F770C9DC5E495 /* SwiftyJot.xcconfig */,
+				1F1FEF92EC17D6252C141ABDE4593D31 /* SwiftyJot-dummy.m */,
+				F246341DD08396CCD1AF9F8408DC146B /* SwiftyJot-Info.plist */,
+				CF4C0F25FF73C977DAEBB72AF6CEDA32 /* SwiftyJot-prefix.pch */,
+				4A8DFBFD109EEA556490B703CC83514D /* SwiftyJot-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwiftyJot";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				80D1C5426F482CF5AB28D03D4D965E8C /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				F8B73CAB1DE0B96EB3AF70C59BCB5709 /* Products */,
+				EAE308A8D3586704E07910D7272C3312 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EAE308A8D3586704E07910D7272C3312 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFFCC15CB016A136E75C1F4A44A67EFF /* Pods-SwiftyJot_Example */,
+				0E45E225AB84CFF40F0FC8DCD87F491F /* Pods-SwiftyJot_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F1B0FA4A0CF59F0F2FA05434ABA6A54E /* SwiftyJot */ = {
+			isa = PBXGroup;
+			children = (
+				84938E743C2092C7219C658CFEB4C918 /* BrushSlider.swift */,
+				5A1EEADA97D0114D73F8C8D861CF75A2 /* PaletteTool.swift */,
+				CEB139EFC15BEA6EDBD087B1D89DD925 /* RoundButton.swift */,
+				3BEB5728F995B2A8DAC5EC06B982E4DA /* SwiftyJot.swift */,
+				3AF1B02928B72473B4A6B5D8891B1838 /* SwiftyJotController.swift */,
+				054B834F2FCD026565EFDB62BFCB83B8 /* UIColor+rgb.swift */,
+				5FC5BB787707DF3BED31467BEE64EA75 /* Pod */,
+				5D8AD084DB051D9EE1C47F62B7E9E6A4 /* Resources */,
+				C9D16A650945B813363A4C622BB6A7C2 /* Support Files */,
+			);
+			name = SwiftyJot;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F8B73CAB1DE0B96EB3AF70C59BCB5709 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7F765989A45829DC16E82DE441C563B /* Pods_SwiftyJot_Example.framework */,
+				1BDC0F138EED166A8415EFA3EA00BE10 /* Pods_SwiftyJot_Tests.framework */,
+				35C0DD631ECBE2D9A3B57ECBA12EB359 /* SwiftyJot.bundle */,
+				0B72C9DF4EE7C758901F86D6EE996AF2 /* SwiftyJot.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7C1CD4AAA0FA8A2E64C1C39829E06627 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF5C12B1811B8D289FCFE9BD37AB79C /* Pods-SwiftyJot_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FAC47AD2885B5D396D42E492AE0CFA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6764D4BD3C9F5DED0F257C86D3F3B17D /* Pods-SwiftyJot_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F5A694D0A0DB2B7C727C0BFAD3B496 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94279D837390548D485A89FD3166FFEA /* SwiftyJot-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		178ADCFC952F4DFA8919BD944B02AA6F /* SwiftyJot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6CFF2F963DF2557D28AC7ED4B62E428 /* Build configuration list for PBXNativeTarget "SwiftyJot" */;
+			buildPhases = (
+				F9F5A694D0A0DB2B7C727C0BFAD3B496 /* Headers */,
+				5A639807A5271B7004943DA440FD6AFB /* Sources */,
+				C3C9C9B08D7BB70C5406A79EC9C39CF0 /* Frameworks */,
+				158385C77CC4108E3207950DBFF02E2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2D0AAF7A82E1D9DD4317B8C62C75658 /* PBXTargetDependency */,
+			);
+			name = SwiftyJot;
+			productName = SwiftyJot;
+			productReference = 0B72C9DF4EE7C758901F86D6EE996AF2 /* SwiftyJot.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		318EDBA24EDF55A3782465A03DE4B67B /* Pods-SwiftyJot_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 783CB651A87334AAC55F14295FA5A118 /* Build configuration list for PBXNativeTarget "Pods-SwiftyJot_Example" */;
+			buildPhases = (
+				9FAC47AD2885B5D396D42E492AE0CFA2 /* Headers */,
+				1FE46082B1995668A32D30039A542C50 /* Sources */,
+				96184A6B55CFA58C7EDE12EBAAC084AF /* Frameworks */,
+				117BA1892FAB86DDCD200F90ACCD9BC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				850521C709F56370ABC341E498A1B93E /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftyJot_Example";
+			productName = "Pods-SwiftyJot_Example";
+			productReference = B7F765989A45829DC16E82DE441C563B /* Pods_SwiftyJot_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3290F59829211DF49D20D589A1598883 /* Pods-SwiftyJot_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F45631B452A357D54E232D7A3134785 /* Build configuration list for PBXNativeTarget "Pods-SwiftyJot_Tests" */;
+			buildPhases = (
+				7C1CD4AAA0FA8A2E64C1C39829E06627 /* Headers */,
+				5D68B08A478F1E2DD04E144931854DC1 /* Sources */,
+				988E3F67CC0AF3ED00F5453050DBC201 /* Frameworks */,
+				67B3229ADAD7EC9876E804FF85557D4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB84E55AED52564DFE08C33045B08F4F /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftyJot_Tests";
+			productName = "Pods-SwiftyJot_Tests";
+			productReference = 1BDC0F138EED166A8415EFA3EA00BE10 /* Pods_SwiftyJot_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3EF920B6555135C548FE6C58551D6AA0 /* SwiftyJot-SwiftyJot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C85F1D0016003B943602737E32FF5F8C /* Build configuration list for PBXNativeTarget "SwiftyJot-SwiftyJot" */;
+			buildPhases = (
+				5ECC25E09769974F60F441BDA23B495C /* Sources */,
+				43148C25BA862FF9270EAC967F10F20E /* Frameworks */,
+				8693509A78266D917DCB0F0B1138BA2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftyJot-SwiftyJot";
+			productName = "SwiftyJot-SwiftyJot";
+			productReference = 35C0DD631ECBE2D9A3B57ECBA12EB359 /* SwiftyJot.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F8B73CAB1DE0B96EB3AF70C59BCB5709 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				318EDBA24EDF55A3782465A03DE4B67B /* Pods-SwiftyJot_Example */,
+				3290F59829211DF49D20D589A1598883 /* Pods-SwiftyJot_Tests */,
+				178ADCFC952F4DFA8919BD944B02AA6F /* SwiftyJot */,
+				3EF920B6555135C548FE6C58551D6AA0 /* SwiftyJot-SwiftyJot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		117BA1892FAB86DDCD200F90ACCD9BC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		158385C77CC4108E3207950DBFF02E2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9867A36EAD6492D73EAD6608433A6515 /* Icons.xcassets in Resources */,
+				9808AA6C2432A6105A9F4CB696BC1B4F /* SwiftyJot.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B3229ADAD7EC9876E804FF85557D4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8693509A78266D917DCB0F0B1138BA2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C0C32728C3C4EB7E40F5F27B1C790A /* Icons.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FE46082B1995668A32D30039A542C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D8BF27BBB7F57C44AB4A8DB445353F /* Pods-SwiftyJot_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A639807A5271B7004943DA440FD6AFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8076F863CD95FA994E20C8304104D0C /* BrushSlider.swift in Sources */,
+				F24CB1A93595CF025B1736E303B681DF /* PaletteTool.swift in Sources */,
+				A0CB424D1E7A62F1801294374CAF6C73 /* RoundButton.swift in Sources */,
+				5696C37265CA5FB47BCA13F3E6702104 /* SwiftyJot-dummy.m in Sources */,
+				2AA61D338ADB7058E69B63DF28D99E31 /* SwiftyJot.swift in Sources */,
+				967A70105E62AD5157DFE4078B72EE68 /* SwiftyJotController.swift in Sources */,
+				541910578DC27723EAE7EB2E3F16F113 /* UIColor+rgb.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D68B08A478F1E2DD04E144931854DC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00628F6EEF453F5FBF5AD7AD1053B3CD /* Pods-SwiftyJot_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECC25E09769974F60F441BDA23B495C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		850521C709F56370ABC341E498A1B93E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJot;
+			target = 178ADCFC952F4DFA8919BD944B02AA6F /* SwiftyJot */;
+			targetProxy = 956A0BBDC8A639CF853BB5DF2F0089AF /* PBXContainerItemProxy */;
+		};
+		CB84E55AED52564DFE08C33045B08F4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SwiftyJot_Example";
+			target = 318EDBA24EDF55A3782465A03DE4B67B /* Pods-SwiftyJot_Example */;
+			targetProxy = BDF4A829B4589353D13BAF8D4ECD5465 /* PBXContainerItemProxy */;
+		};
+		F2D0AAF7A82E1D9DD4317B8C62C75658 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftyJot-SwiftyJot";
+			target = 3EF920B6555135C548FE6C58551D6AA0 /* SwiftyJot-SwiftyJot */;
+			targetProxy = 0948849FB9A4D3BA4FB4DD293EA88DD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1716A4E3B00123BF0F65125AFDD63B0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB06B255B10637931AB39056FD329B8 /* Pods-SwiftyJot_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyJot_Example/Pods-SwiftyJot_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyJot_Example/Pods-SwiftyJot_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34358D260705AB7393027054C59B466E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBB0079D4156E4C1552F770C9DC5E495 /* SwiftyJot.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJot/SwiftyJot-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJot/SwiftyJot-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJot/SwiftyJot.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJot;
+				PRODUCT_NAME = SwiftyJot;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D52EF2051DD812F782F2C3BB152D94C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01499AB07731A56B9BFCEF34CB5502E2 /* Pods-SwiftyJot_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyJot_Tests/Pods-SwiftyJot_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyJot_Tests/Pods-SwiftyJot_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		773D4CF1C734D10E818CA07C4EF29865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBB0079D4156E4C1552F770C9DC5E495 /* SwiftyJot.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftyJot";
+				IBSC_MODULE = SwiftyJot;
+				INFOPLIST_FILE = "Target Support Files/SwiftyJot/ResourceBundle-SwiftyJot-SwiftyJot-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = SwiftyJot;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8E170EB3CA185176D111BB4EAF510F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBB0079D4156E4C1552F770C9DC5E495 /* SwiftyJot.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftyJot";
+				IBSC_MODULE = SwiftyJot;
+				INFOPLIST_FILE = "Target Support Files/SwiftyJot/ResourceBundle-SwiftyJot-SwiftyJot-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = SwiftyJot;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B3C3EE697F25D03DF6B9F83258F37038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9A58DDFF06998BB19A7AC978B52EB31 /* Pods-SwiftyJot_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyJot_Example/Pods-SwiftyJot_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyJot_Example/Pods-SwiftyJot_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D981888237769F619344A8A648FD9BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBB0079D4156E4C1552F770C9DC5E495 /* SwiftyJot.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJot/SwiftyJot-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJot/SwiftyJot-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJot/SwiftyJot.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJot;
+				PRODUCT_NAME = SwiftyJot;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F2BA56111C5023D62649D05DB1BEDCF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B50EDC6A4B2D24F2FD023C3993A7403D /* Pods-SwiftyJot_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyJot_Tests/Pods-SwiftyJot_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyJot_Tests/Pods-SwiftyJot_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		783CB651A87334AAC55F14295FA5A118 /* Build configuration list for PBXNativeTarget "Pods-SwiftyJot_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1716A4E3B00123BF0F65125AFDD63B0E /* Debug */,
+				B3C3EE697F25D03DF6B9F83258F37038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F45631B452A357D54E232D7A3134785 /* Build configuration list for PBXNativeTarget "Pods-SwiftyJot_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D52EF2051DD812F782F2C3BB152D94C /* Debug */,
+				F2BA56111C5023D62649D05DB1BEDCF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6CFF2F963DF2557D28AC7ED4B62E428 /* Build configuration list for PBXNativeTarget "SwiftyJot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34358D260705AB7393027054C59B466E /* Debug */,
+				D981888237769F619344A8A648FD9BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C85F1D0016003B943602737E32FF5F8C /* Build configuration list for PBXNativeTarget "SwiftyJot-SwiftyJot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773D4CF1C734D10E818CA07C4EF29865 /* Debug */,
+				8E170EB3CA185176D111BB4EAF510F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

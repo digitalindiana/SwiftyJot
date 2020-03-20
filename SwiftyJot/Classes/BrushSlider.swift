@@ -13,7 +13,7 @@ class BrushSlider: UIView {
     let brushView = UIView()
     let connector = UIView()
     let minSize: CGFloat = 1
-    let maxSize: CGFloat = 20
+    let maxSize: CGFloat = 40
     var brushSize: CGFloat = 8
     var color: UIColor!
 
